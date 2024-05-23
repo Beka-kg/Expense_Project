@@ -57,7 +57,7 @@ function Chart(props) {
 
     props.product.map((el)=>{
         const month = el.date.getMonth()
-        months[month].rashod = +el.price + months[month].rashod
+       return months[month].rashod = +el.price + months[month].rashod
     })
 
 
